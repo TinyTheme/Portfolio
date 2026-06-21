@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import Logo from './Logo.jsx';
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,7 +23,7 @@ function Navbar() {
   return (
     <header className="navbar">
       <a className="navbar-logo" href="#hero" aria-label="Go to hero section">
-        Logo
+        <Logo />
       </a>
 
       <div className="navbar-right">
