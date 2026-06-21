@@ -33,15 +33,19 @@ function Navbar() {
           aria-label="Primary navigation"
         >
           <a href="#about" onClick={() => setIsMenuOpen(false)}>
+            <span className="nav-number">01.</span>
             About
           </a>
           <a href="#skills" onClick={() => setIsMenuOpen(false)}>
+            <span className="nav-number">02.</span>
             Skills
           </a>
           <a href="#projects" onClick={() => setIsMenuOpen(false)}>
+            <span className="nav-number">03.</span>
             Projects
           </a>
           <a href="#contact" onClick={() => setIsMenuOpen(false)}>
+            <span className="nav-number">04.</span>
             Contacts
           </a>
         </nav>

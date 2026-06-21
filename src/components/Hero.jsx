@@ -1,3 +1,5 @@
+import resume from "../assets/resume.pdf";
+
 function Hero() {
   return (
     <section className="hero-section" id="hero">
@@ -15,7 +17,7 @@ function Hero() {
           Currently, I'm building projects, expanding my skills, and looking for
           opportunities to contribute, learn, and grow.
         </p>
-        <a className="hero-button" href="/resume.pdf" download>
+        <a className="hero-button" href={resume} download>
           Download Resume
         </a>
       </div>
